@@ -3,6 +3,9 @@
 import math
 
 No_degree = int(input("Enter the number of degree "))
-Result = No_degree * 180/math.pi
 
-print(Result)
+def Radi_Degree(value):
+    Result = No_degree * 180/math.pi
+    print(Result)
+
+Radi_Degree(No_degree)
